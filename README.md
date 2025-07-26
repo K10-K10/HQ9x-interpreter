@@ -1,5 +1,7 @@
 # HQ9+-interpreter
-## command
+
+## Char list
+
 | char | command                                                                         |
 | ---- | ------------------------------------------------------------------------------- |
 | H    | print "Hello, world!"                                                           |
@@ -9,7 +11,7 @@
 
 [reference from wikipedia](https://simple.wikipedia.org/wiki/HQ9%2B)
 
-## "99 Bottles of Beer" lyrics
+### "99 Bottles of Beer" lyrics
 ```
 99 bottles of beer on the wall, 99 bottles of beer.
 Take one down and pass it around, 98 bottles of beer on the wall.
@@ -36,13 +38,13 @@ Go to the store and buy some more, 99 bottles of beer on the wall.
 - ssh
 
 ```bash
-git clone git@github.com/K10-K10/Befunge-interpreter
+git clone git@github.com/K10-K10/HQ9x-interpreter
 ```
 
 - https
 
 ```bash
-git clone https://github.com/K10-K10/Befunge-interpreter
+git clone https://github.com/K10-K10/HQ9x-interpreter
 ```
 
 2. Build
@@ -66,6 +68,7 @@ g++ main.cpp -o hq
 ```
 
 ## Run
+
 ```bash
-bef file.hq
+hq file.hq
 ```
