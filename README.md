@@ -58,13 +58,13 @@ g++ main.cpp -o hq
 3. Copy `hq` in `bin`
 
 ```bash
-	sudo cp bef ~/.local/bin/hq
+sudo cp bef ~/.local/bin/hq
 ```
 
 4. Add path in ~/.zshrc
 
 ```bash
-	export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
 ```
 
 ## Run
